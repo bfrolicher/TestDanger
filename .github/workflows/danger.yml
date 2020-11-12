@@ -11,7 +11,8 @@ jobs:
     steps:
       - name: Gem install
         run: |
-          gem install
+          gem install bundler
+          bundle install
       - uses: actions/checkout@v1
       - name: Danger
         uses: danger/swift@3.3.0
