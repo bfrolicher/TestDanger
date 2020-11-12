@@ -15,7 +15,6 @@
 		DC686499255D73D100A73ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC686497255D73D100A73ED1 /* LaunchScreen.storyboard */; };
 		DC6864A4255D73D100A73ED1 /* TestDangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6864A3255D73D100A73ED1 /* TestDangerTests.swift */; };
 		DC6864AF255D73D100A73ED1 /* TestDangerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6864AE255D73D100A73ED1 /* TestDangerUITests.swift */; };
-		DC6864CF255D793F00A73ED1 /* Dangerfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6864CE255D793F00A73ED1 /* Dangerfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +62,7 @@
 		DC6864AA255D73D100A73ED1 /* TestDangerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDangerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6864AE255D73D100A73ED1 /* TestDangerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDangerUITests.swift; sourceTree = "<group>"; };
 		DC6864B0255D73D100A73ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC6864CE255D793F00A73ED1 /* Dangerfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dangerfile.swift; path = ../Dangerfile.swift; sourceTree = "<group>"; };
+		DC6864D0255D7D2100A73ED1 /* Dangerfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dangerfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +93,7 @@
 		DC686480255D73CF00A73ED1 = {
 			isa = PBXGroup;
 			children = (
-				DC6864CE255D793F00A73ED1 /* Dangerfile.swift */,
+				DC6864D0255D7D2100A73ED1 /* Dangerfile.swift */,
 				DC68648B255D73CF00A73ED1 /* TestDanger */,
 				DC6864A2255D73D100A73ED1 /* TestDangerTests */,
 				DC6864AD255D73D100A73ED1 /* TestDangerUITests */,
@@ -280,7 +279,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC6864CF255D793F00A73ED1 /* Dangerfile.swift in Sources */,
 				DC686491255D73CF00A73ED1 /* ViewController.swift in Sources */,
 				DC68648D255D73CF00A73ED1 /* AppDelegate.swift in Sources */,
 				DC68648F255D73CF00A73ED1 /* SceneDelegate.swift in Sources */,
