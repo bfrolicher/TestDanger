@@ -15,6 +15,8 @@
 		DC686499255D73D100A73ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC686497255D73D100A73ED1 /* LaunchScreen.storyboard */; };
 		DC6864A4255D73D100A73ED1 /* TestDangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6864A3255D73D100A73ED1 /* TestDangerTests.swift */; };
 		DC6864AF255D73D100A73ED1 /* TestDangerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6864AE255D73D100A73ED1 /* TestDangerUITests.swift */; };
+		DC6864D2255D846100A73ED1 /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6864D1255D846100A73ED1 /* ViewModelProtocol.swift */; };
+		DC6864D4255D849500A73ED1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6864D3255D849500A73ED1 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		DC6864AE255D73D100A73ED1 /* TestDangerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDangerUITests.swift; sourceTree = "<group>"; };
 		DC6864B0255D73D100A73ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC6864D0255D7D2100A73ED1 /* Dangerfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dangerfile.swift; sourceTree = "<group>"; };
+		DC6864D1255D846100A73ED1 /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		DC6864D3255D849500A73ED1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				DC686495255D73D100A73ED1 /* Assets.xcassets */,
 				DC686497255D73D100A73ED1 /* LaunchScreen.storyboard */,
 				DC68649A255D73D100A73ED1 /* Info.plist */,
+				DC6864D1255D846100A73ED1 /* ViewModelProtocol.swift */,
+				DC6864D3255D849500A73ED1 /* ViewModel.swift */,
 			);
 			path = TestDanger;
 			sourceTree = "<group>";
@@ -279,6 +285,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6864D4255D849500A73ED1 /* ViewModel.swift in Sources */,
+				DC6864D2255D846100A73ED1 /* ViewModelProtocol.swift in Sources */,
 				DC686491255D73CF00A73ED1 /* ViewController.swift in Sources */,
 				DC68648D255D73CF00A73ED1 /* AppDelegate.swift in Sources */,
 				DC68648F255D73CF00A73ED1 /* SceneDelegate.swift in Sources */,
