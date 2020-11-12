@@ -7,7 +7,7 @@ let changelogChanged = allSourceFiles.contains("CHANGELOG.md")
 let sourceChanges = allSourceFiles.first(where: { $0.hasPrefix("Sources") })
 
 xcov.report(
-   scheme: 'TestDanger',
+   scheme: "TestDanger",
    minimum_coverage_percentage: 90
 )
 
