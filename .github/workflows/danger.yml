@@ -9,6 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     name: "Run Danger"
     steps:
+      - name: Gem install
+        run: |
+          gem install bundler
+          bundle install
       - uses: actions/checkout@v1
       - name: Danger
         uses: danger/swift@3.3.0
